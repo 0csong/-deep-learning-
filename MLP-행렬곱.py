@@ -12,7 +12,7 @@ import torchvision.transforms as transforms
 
 mnist_test=dset.MNIST("",train=False,transform=transforms.ToTensor(),
                       target_transform=None,download=True)
-여기서 
+여기서 파일을 다운로드받아옴
 
 
 
