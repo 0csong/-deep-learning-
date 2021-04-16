@@ -152,8 +152,5 @@ netname='./nets.mlp_weight.pkl'
 torch.save(model,netname,)
 
 
-# In[ ]:
-
-
 
 
