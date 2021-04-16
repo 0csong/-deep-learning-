@@ -152,5 +152,7 @@ netname='./nets.mlp_weight.pkl'
 torch.save(model,netname,)
 
 
+결과
+https://github.com/0csong/-deep-learning-/issues/1
 
 
