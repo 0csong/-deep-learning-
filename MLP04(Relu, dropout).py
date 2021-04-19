@@ -142,7 +142,8 @@ ComputeAccr(test_loader,model)
 
 
 # In[ ]:
-# drop out 사용결과 약 5%상승한 15퍼의 정확도를 보임
 
+# drop out 사용결과 약 5%상승한 15퍼의 정확도를 보임
+#사용전에는 약 10%로의 정확도
 
 
