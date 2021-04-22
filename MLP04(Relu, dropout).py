@@ -28,7 +28,7 @@ cifar_train=dset.CIFAR10("CIFAR10/",train=True,transform=transforms.ToTensor(),
                         target_transform=None,download=True)
 cifar_test=dset.CIFAR10("CIFAR10/",train=False,transform=transforms.ToTensor(),
                         target_transform=None,download=True)
-
+#cifar라는 데이터로 여기에는 트럭등의 사진이 담겨있음 
 
 # In[22]:
 
