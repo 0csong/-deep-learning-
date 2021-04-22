@@ -150,20 +150,8 @@ for i in range(num_epoch):
 
 ComputeAccr(test_loader,model)
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
+#약 55퍼센트의 정확도를 보인다 상당히 많이 개선됨을 확인
+#1 epoch 기준
 
 
 
