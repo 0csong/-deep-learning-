@@ -107,7 +107,7 @@ class CNN(nn.Module):
             #nn.BatchNorm1d(100),    #(64)batch normalization   
             nn.Linear(100,10)
         )
-        #weight initialization
+        #weight initialization , 모델의 퍼셉트론 구성이 끝난뒤 가중치를 초기화한다
         for m in self.modules():
             if isinstance(m,nn.Conv2d):#여기 layer(conv2d) weight초기화
                 init.kaiming_normal_(m.weight.data) #kaiming초기화는 He초기화
