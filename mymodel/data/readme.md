@@ -1,2 +1,1 @@
-
-Python and Anaconda image data
+##Python and Anaconda image data
